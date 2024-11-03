@@ -1,0 +1,12 @@
+./progexe < input/test_1 > outprog/test_1
+./progexe < input/test_2 > outprog/test_2
+./progexe < input/test_3 > outprog/test_3
+./progexe < input/test_4 > outprog/test_4
+./progexe < input/test_5 > outprog/test_5
+./progexe < input/test_6 > outprog/test_6
+./progexe < input/test_7 > outprog/test_7
+./progexe < input/test_8 > outprog/test_8
+./progexe < input/test_9 > outprog/test_9
+./progexe < input/test_10 > outprog/test_10
+
+diff output/ outprog/
