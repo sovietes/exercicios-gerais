@@ -1,0 +1,7 @@
+main.c: In function ‘processaOperacao’:
+main.c:90:20: warning: ‘return’ with a value, in function returning void [-Wreturn-type]
+   90 |             return 0;
+      |                    ^
+main.c:40:6: note: declared here
+   40 | void processaOperacao(int opcao, int rows1, int cols1, int matrix1[rows1][cols1], int rows2, int cols2, int matrix2[rows2][cols2]) {
+      |      ^~~~~~~~~~~~~~~~

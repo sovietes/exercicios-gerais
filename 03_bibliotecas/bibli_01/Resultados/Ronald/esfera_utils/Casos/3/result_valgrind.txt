@@ -1,0 +1,15 @@
+==21829== Memcheck, a memory error detector
+==21829== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==21829== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==21829== Command: Resultados/Ronald/esfera_utils/prog Resultados/Ronald/esfera_utils/Casos/3
+==21829== Parent PID: 21828
+==21829== 
+==21829== 
+==21829== HEAP SUMMARY:
+==21829==     in use at exit: 0 bytes in 0 blocks
+==21829==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==21829== 
+==21829== All heap blocks were freed -- no leaks are possible
+==21829== 
+==21829== For lists of detected and suppressed errors, rerun with: -s
+==21829== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

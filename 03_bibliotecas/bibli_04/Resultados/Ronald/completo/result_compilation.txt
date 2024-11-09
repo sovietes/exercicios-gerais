@@ -1,0 +1,26 @@
+data.c: In function ‘imprimeMesExtenso’:
+data.c:21:13: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   21 |             printf("Janeiro");
+      |             ^~~~~~
+data.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "./data.h"
+  +++ |+#include <stdio.h>
+    2 | 
+data.c:21:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   21 |             printf("Janeiro");
+      |             ^~~~~~
+data.c:21:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+data.c: In function ‘imprimeDataExtenso’:
+data.c:60:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   60 |     printf("%02d de ", dia);
+      |     ^~~~~~
+data.c:60:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+data.c: In function ‘imprimeData’:
+data.c:185:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  185 |     printf("%02d/%02d/%04d\n", dia, mes, ano);
+      |     ^~~~~~
+data.c:185:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+data.c: In function ‘comparaData’:
+data.c:131:1: warning: control reaches end of non-void function [-Wreturn-type]
+  131 | }
+      | ^
