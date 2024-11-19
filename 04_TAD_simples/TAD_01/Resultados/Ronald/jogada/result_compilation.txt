@@ -1,0 +1,18 @@
+jogada.c: In function ‘LeJogada’:
+jogada.c:19:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   19 |     printf("Digite uma posicao (x e y):\n");
+      |     ^~~~~~
+jogada.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "jogada.h"
+  +++ |+#include <stdio.h>
+    2 | 
+jogada.c:19:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   19 |     printf("Digite uma posicao (x e y):\n");
+      |     ^~~~~~
+jogada.c:19:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+jogada.c:21:8: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   21 |     if(scanf("%d %d", &x, &y) == 2) {
+      |        ^~~~~
+jogada.c:21:8: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+jogada.c:21:8: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+jogada.c:21:8: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’

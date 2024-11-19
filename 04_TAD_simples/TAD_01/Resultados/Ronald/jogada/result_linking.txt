@@ -1,3 +1,0 @@
-/usr/bin/ld: Resultados/Ronald/jogada/jogador.o: in function `JogaJogador':
-jogador.c:(.text+0x6d): undefined reference to `LeJogada'
-collect2: error: ld returned 1 exit status
