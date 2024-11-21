@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y) {
-    if(peca == 1) {
+    if(peca == PECA_1) {
         tabuleiro.posicoes[x][y] = tabuleiro.peca1;
-    } else if (peca == 2) {
+    } else if (peca == PECA_2) {
         tabuleiro.posicoes[x][y] = tabuleiro.peca2;
     }
 

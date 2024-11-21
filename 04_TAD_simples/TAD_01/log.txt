@@ -21,7 +21,7 @@ CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/Ronald/jogada.h' encontrado!
  - Arquivo esperado 'Respostas/Ronald/jogador.c' encontrado!
  - Arquivo esperado 'Respostas/Ronald/jogador.h' encontrado!
- - Arquivo esperado 'Respostas/Ronald/jogo.c' não encontrado!
+ - Arquivo esperado 'Respostas/Ronald/jogo.c' encontrado!
  - Arquivo esperado 'Respostas/Ronald/jogo.h' encontrado!
  - Arquivo esperado 'Respostas/Ronald/main.c' não encontrado!
  - Arquivo esperado 'Respostas/Ronald/tabuleiro.c' encontrado!
@@ -83,8 +83,9 @@ COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
  - Arquivo de output gerado: Resultados/Ronald/jogador/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta tabuleiro ok!
  - Arquivo de output gerado: Resultados/Ronald/tabuleiro/result_compilation.txt
- - Erro de compilação! Verifique os arquivos da pasta jogo.
- - Arquivos Compilados: Erro!: 2 arquivos com erros de compilacao.
+ - Compilação dos arquivos do aluno na pasta jogo ok!
+ - Arquivo de output gerado: Resultados/Ronald/jogo/result_compilation.txt
+ - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
 
  - Arquivos Compilados: ok!
 
@@ -111,9 +112,9 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Ronald/tabuleiro/result_linking.txt
  - Pasta jogo:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Ronald/jogo/result_linking.txt
- - Arquivos Linkados: Erro! 4 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
@@ -259,30 +260,36 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para a pasta tabuleiro (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
  -----
  - Pasta jogo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/jogo/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 5 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
  - Pasta jogo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/jogo/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 4 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
  - Pasta jogo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/jogo/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 3 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
  - Pasta jogo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/jogo/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 3 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
  - Pasta jogo / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/jogo/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 5 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
  - Pasta jogo / Caso 6:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Ronald/jogo/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 2, frees: 2, errors: 10 | Desconto do valgrind 50.00%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
  - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta jogo (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ - Nota para a pasta jogo (máximo 1.67) - 25.00 de 60 - 41.00% de 1.67: .68.
  -----
 
 #######################################
@@ -291,9 +298,9 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: Ronald
- - Arquivos Esperados Corretos: 7 de 9
- - Pastas Compiladas Corretamente: 4 de 6 
- - Pastas Linkadas Corretamente: 2 de 6
+ - Arquivos Esperados Corretos: 8 de 9
+ - Pastas Compiladas Corretamente: 5 de 6 
+ - Pastas Linkadas Corretamente: 3 de 6
  - Teste main
  - Resultados corretos: 0 de 6
  - Valgrinds corretos: 0 de 6
@@ -315,11 +322,11 @@ Aluno: Ronald
  - Valgrinds corretos: 6 de 6
  - Nota de Ronald para o teste tabuleiro: 1.67
  - Teste jogo
- - Resultados corretos: 0 de 6
+ - Resultados corretos: 5 de 6
  - Valgrinds corretos: 0 de 6
- - Nota de Ronald para o teste jogo: 0
- - Nota de Ronald: 0+(0)+(1.67)+(1.67)+(0)+(0)+(0)
- - Nota de Ronald: 3.34
+ - Nota de Ronald para o teste jogo: .68
+ - Nota de Ronald: 0+(.68)+(1.67)+(1.67)+(0)+(0)+(0)
+ - Nota de Ronald: 4.02
 
 ----------------------------------------------------------------------------
 

@@ -1,2 +1,4 @@
-cc1: fatal error: *.c: No such file or directory
-compilation terminated.
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+   42 | }
+      | ^
