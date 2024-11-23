@@ -1,32 +1,15 @@
-==346290== Memcheck, a memory error detector
-==346290== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==346290== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==346290== Command: Resultados/Ronald/candidato/prog Resultados/Ronald/candidato/Casos/4
-==346290== Parent PID: 346289
-==346290== 
-==346290== Conditional jump or move depends on uninitialised value(s)
-==346290==    at 0x10A2D5: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290== 
-==346290== Conditional jump or move depends on uninitialised value(s)
-==346290==    at 0x10A53A: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290== 
-==346290== Conditional jump or move depends on uninitialised value(s)
-==346290==    at 0x10A6BD: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290== 
-==346290== Conditional jump or move depends on uninitialised value(s)
-==346290==    at 0x10AA9F: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
-==346290== 
-==346290== 
-==346290== HEAP SUMMARY:
-==346290==     in use at exit: 0 bytes in 0 blocks
-==346290==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
-==346290== 
-==346290== All heap blocks were freed -- no leaks are possible
-==346290== 
-==346290== Use --track-origins=yes to see where uninitialised values come from
-==346290== For lists of detected and suppressed errors, rerun with: -s
-==346290== ERROR SUMMARY: 10 errors from 4 contexts (suppressed: 0 from 0)
+==607164== Memcheck, a memory error detector
+==607164== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==607164== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==607164== Command: Resultados/Ronald/candidato/prog Resultados/Ronald/candidato/Casos/4
+==607164== Parent PID: 607163
+==607164== 
+==607164== 
+==607164== HEAP SUMMARY:
+==607164==     in use at exit: 0 bytes in 0 blocks
+==607164==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==607164== 
+==607164== All heap blocks were freed -- no leaks are possible
+==607164== 
+==607164== For lists of detected and suppressed errors, rerun with: -s
+==607164== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

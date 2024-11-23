@@ -1,26 +1,14 @@
 #include "candidato.h"
 #include <string.h>
 
-//Funcao auxiliar
-// void strCopy(char *origem, char *destino) {
-//     int i = 0;
-//     while(origem[i] != '\0') {
-//         destino[i] = origem[i];
-//         i++;
-//     }
-//     destino[i] = '\0';
-// }
-
 tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id) {
     tCandidato candidato;
 
     strcpy(candidato.nome, nome);
     strcpy(candidato.partido, partido);
-
-    // strCopy(nome, candidato.nome);
-    // strCopy(partido, candidato.partido);
     candidato.cargo = cargo;
     candidato.id = id;
+    candidato.votos = 0;
 
     return candidato;
 }
@@ -30,23 +18,20 @@ tCandidato LeCandidato() {
     char nome[50], partido[50], cargo;
     int id;
 
-    scanf("%*[^A-Z]");
+    scanf("%*[^a-zA-Z]");
 
     scanf("%[^,]", nome);
-    scanf("%*c%*c");
+    scanf("%*[^a-zA-Z]");
 
     scanf("%[^,]", partido);
-    scanf("%*c%*c");
+    scanf("%*[^PG]");
 
     scanf("%c", &cargo);
-    scanf("%*c%*c");
+    scanf("%*[^0-9]");
 
     scanf("%d", &id);
 
-    scanf("%*[^A-Z]");
-
     candidato = CriaCandidato(nome, partido, cargo, id);
-    // ImprimeCandidato(candidato, 10);
     return candidato;
 }
 
@@ -81,7 +66,7 @@ int ObtemVotos(tCandidato candidato) {
 
 float CalculaPercentualVotos(tCandidato candidato, int totalVotos) {
     float percentual;
-    percentual = (totalVotos/ObtemVotos(candidato)) * 100;
+    percentual = ((float) ObtemVotos(candidato)/ (float) totalVotos) * 100;
     return percentual;
 }
 

@@ -1,28 +1,58 @@
 candidato.c: In function ‘LeCandidato’:
-candidato.c:33:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   33 |     scanf("%*[^A-Z]");
+candidato.c:21:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   21 |     scanf("%*[^a-zA-Z]");
       |     ^~~~~
 candidato.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
     2 | #include <string.h>
   +++ |+#include <stdio.h>
     3 | 
-candidato.c:33:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
-   33 |     scanf("%*[^A-Z]");
+candidato.c:21:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   21 |     scanf("%*[^a-zA-Z]");
       |     ^~~~~
-candidato.c:33:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+candidato.c:21:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
 candidato.c: In function ‘ImprimeCandidato’:
-candidato.c:89:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-   89 |     printf("%s (%s), %d voto(s), %.2f%%\n", candidato.nome, candidato.partido, ObtemVotos(candidato), percentualVotos);
+candidato.c:74:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   74 |     printf("%s (%s), %d voto(s), %.2f%%\n", candidato.nome, candidato.partido, ObtemVotos(candidato), percentualVotos);
       |     ^~~~~~
-candidato.c:89:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-candidato.c:89:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
-candidato.c:89:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-eleicao.c: In function ‘InicializaEleicao’:
-eleicao.c:4:14: warning: unused variable ‘eleicao’ [-Wunused-variable]
-    4 |     tEleicao eleicao;
-      |              ^~~~~~~
-eleicao.c:5:1: warning: control reaches end of non-void function [-Wreturn-type]
-    5 | }
+candidato.c:74:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+candidato.c:74:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+candidato.c:74:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:57:19: warning: implicit declaration of function ‘VotoValido’ [-Wimplicit-function-declaration]
+   57 |         } else if(VotoValido(votoGovernador, eleicao.governadores, eleicao.totalGovernadores)) {
+      |                   ^~~~~~~~~~
+eleicao.c:58:34: warning: implicit declaration of function ‘RetornaPosicaoVetor’ [-Wimplicit-function-declaration]
+   58 |             eleicao.governadores[RetornaPosicaoVetor(votoGovernador, eleicao.governadores, eleicao.totalGovernadores)] = IncrementaVotoCandidato(eleicao.governadores[RetornaPosicaoVetor(votoGovernador, eleicao.governadores, eleicao.totalGovernadores)]);
+      |                                  ^~~~~~~~~~~~~~~~~~~
+eleicao.c:42:9: warning: unused variable ‘qtdEleitores’ [-Wunused-variable]
+   42 |     int qtdEleitores, i, votoGovernador, votoPresidente;
+      |         ^~~~~~~~~~~~
+eleicao.c: In function ‘ImprimeResultadoEleicao’:
+eleicao.c:90:15: warning: implicit declaration of function ‘HaEleitorVotandoNovamente’ [-Wimplicit-function-declaration]
+   90 |     } else if(HaEleitorVotandoNovamente(eleicao.eleitores, eleicao.totalEleitores)) {
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~
+eleicao.c:95:9: warning: implicit declaration of function ‘ResultadoPresidente’ [-Wimplicit-function-declaration]
+   95 |         ResultadoPresidente(eleicao);
+      |         ^~~~~~~~~~~~~~~~~~~
+eleicao.c:97:9: warning: implicit declaration of function ‘ResultadoGovernador’ [-Wimplicit-function-declaration]
+   97 |         ResultadoGovernador(eleicao);
+      |         ^~~~~~~~~~~~~~~~~~~
+eleicao.c: At top level:
+eleicao.c:135:6: warning: conflicting types for ‘ResultadoPresidente’; have ‘void(tEleicao)’
+  135 | void ResultadoPresidente(tEleicao eleicao) {
+      |      ^~~~~~~~~~~~~~~~~~~
+eleicao.c:95:9: note: previous implicit declaration of ‘ResultadoPresidente’ with type ‘void(tEleicao)’
+   95 |         ResultadoPresidente(eleicao);
+      |         ^~~~~~~~~~~~~~~~~~~
+eleicao.c:171:6: warning: conflicting types for ‘ResultadoGovernador’; have ‘void(tEleicao)’
+  171 | void ResultadoGovernador(tEleicao eleicao) {
+      |      ^~~~~~~~~~~~~~~~~~~
+eleicao.c:97:9: note: previous implicit declaration of ‘ResultadoGovernador’ with type ‘void(tEleicao)’
+   97 |         ResultadoGovernador(eleicao);
+      |         ^~~~~~~~~~~~~~~~~~~
+eleicao.c: In function ‘RetornaPosicaoVetor’:
+eleicao.c:121:1: warning: control reaches end of non-void function [-Wreturn-type]
+  121 | }
       | ^
 eleitor.c: In function ‘LeEleitor’:
 eleitor.c:14:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]

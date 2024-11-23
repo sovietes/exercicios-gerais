@@ -1,19 +1,19 @@
 candidato.c: In function ‘LeCandidato’:
-candidato.c:33:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
-   33 |     scanf("%*[^A-Z]");
+candidato.c:21:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   21 |     scanf("%*[^a-zA-Z]");
       |     ^~~~~
 candidato.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
     2 | #include <string.h>
   +++ |+#include <stdio.h>
     3 | 
-candidato.c:33:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
-   33 |     scanf("%*[^A-Z]");
+candidato.c:21:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   21 |     scanf("%*[^a-zA-Z]");
       |     ^~~~~
-candidato.c:33:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+candidato.c:21:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
 candidato.c: In function ‘ImprimeCandidato’:
-candidato.c:89:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
-   89 |     printf("%s (%s), %d voto(s), %.2f%%\n", candidato.nome, candidato.partido, ObtemVotos(candidato), percentualVotos);
+candidato.c:74:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   74 |     printf("%s (%s), %d voto(s), %.2f%%\n", candidato.nome, candidato.partido, ObtemVotos(candidato), percentualVotos);
       |     ^~~~~~
-candidato.c:89:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
-candidato.c:89:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
-candidato.c:89:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+candidato.c:74:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+candidato.c:74:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+candidato.c:74:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
