@@ -1,0 +1,21 @@
+==48565== Memcheck, a memory error detector
+==48565== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==48565== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==48565== Command: Resultados/Ronald/completo/prog Resultados/Ronald/completo/Casos/3
+==48565== Parent PID: 48564
+==48565== 
+==48565== Conditional jump or move depends on uninitialised value(s)
+==48565==    at 0x109596: VenceuJogador (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Ronald/completo/prog)
+==48565==    by 0x109856: ComecaJogo (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Ronald/completo/prog)
+==48565==    by 0x1099AC: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Ronald/completo/prog)
+==48565== 
+==48565== 
+==48565== HEAP SUMMARY:
+==48565==     in use at exit: 0 bytes in 0 blocks
+==48565==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==48565== 
+==48565== All heap blocks were freed -- no leaks are possible
+==48565== 
+==48565== Use --track-origins=yes to see where uninitialised values come from
+==48565== For lists of detected and suppressed errors, rerun with: -s
+==48565== ERROR SUMMARY: 3 errors from 1 contexts (suppressed: 0 from 0)

@@ -318,12 +318,6 @@ JOGADOR 1 Venceu!
 Jogar novamente? (s,n)
 Jogador 1
 Digite uma posicao (x e y):
-Posicao invalida (FORA DO TABULEIRO - [1,-1] )!
-Jogador 1
-Digite uma posicao (x e y):
-Formato invalido!
-Jogador 1
-Digite uma posicao (x e y):
 Jogada [0,0]!
 	X--
 	---

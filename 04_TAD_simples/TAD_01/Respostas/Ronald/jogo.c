@@ -31,9 +31,10 @@ int AcabouJogo(tJogo jogo) {
 int ContinuaJogo() {
     char opcao;
     printf("Jogar novamente? (s,n)\n");
-    scanf("%*[^\n]");
-    scanf("%*c");
+
+    scanf("%*[^a-z]");
     scanf("%c", &opcao);
+
     if(opcao == 's') {
         return 1;
     } else if(opcao == 'n') {

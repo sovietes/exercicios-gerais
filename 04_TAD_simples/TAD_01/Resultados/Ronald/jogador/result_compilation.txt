@@ -1,0 +1,12 @@
+jogador.c: In function ‘JogaJogador’:
+jogador.c:22:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   22 |         printf("Jogador %d\n", idJogador);
+      |         ^~~~~~
+jogador.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    2 | #include "jogada.h"
+  +++ |+#include <stdio.h>
+    3 | 
+jogador.c:22:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   22 |         printf("Jogador %d\n", idJogador);
+      |         ^~~~~~
+jogador.c:22:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

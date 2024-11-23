@@ -1,29 +1,29 @@
-Arquivos Esperados Corretos: 8 de 9
-Pastas Compiladas Corretamente: 5 de 6 
-Pastas Linkadas Corretamente: 3 de 6
+Arquivos Esperados Corretos: 9 de 9
+Pastas Compiladas Corretamente: 6 de 6 
+Pastas Linkadas Corretamente: 6 de 6
 Teste main
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de Ronald para o teste main: 0
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Ronald para o teste main: 1.66
 Teste completo
-  - Resultados corretos: 0 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 0 de 6
-Nota de Ronald para o teste completo: 0
+Nota de Ronald para o teste completo: .83
 Teste jogada
   - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
 Nota de Ronald para o teste jogada: 1.67
 Teste jogador
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de Ronald para o teste jogador: 0
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Ronald para o teste jogador: 1.67
 Teste tabuleiro
   - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
 Nota de Ronald para o teste tabuleiro: 1.67
 Teste jogo
-  - Resultados corretos: 5 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 0 de 6
-Nota de Ronald para o teste jogo: .68
-Nota de Ronald: 0+(.68)+(1.67)+(1.67)+(0)+(0)+(0)
-Nota de Ronald: 4.02
+Nota de Ronald para o teste jogo: .83
+Nota de Ronald: 0+(.83)+(1.67)+(1.67)+(1.67)+(1.66)+(.83)
+Nota de Ronald: 8.33

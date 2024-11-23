@@ -1,8 +1,0 @@
-/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
-(.text+0x1b): undefined reference to `main'
-/usr/bin/ld: Resultados/Ronald/completo/jogo.o: in function `ComecaJogo':
-jogo.c:(.text+0x190): undefined reference to `VenceuJogador'
-/usr/bin/ld: jogo.c:(.text+0x1c0): undefined reference to `JogaJogador'
-/usr/bin/ld: jogo.c:(.text+0x23e): undefined reference to `VenceuJogador'
-/usr/bin/ld: jogo.c:(.text+0x267): undefined reference to `VenceuJogador'
-collect2: error: ld returned 1 exit status
