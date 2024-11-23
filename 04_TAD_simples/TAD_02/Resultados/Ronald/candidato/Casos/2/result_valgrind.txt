@@ -1,0 +1,32 @@
+==345940== Memcheck, a memory error detector
+==345940== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==345940== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==345940== Command: Resultados/Ronald/candidato/prog Resultados/Ronald/candidato/Casos/2
+==345940== Parent PID: 345939
+==345940== 
+==345940== Conditional jump or move depends on uninitialised value(s)
+==345940==    at 0x10A2D5: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940== 
+==345940== Conditional jump or move depends on uninitialised value(s)
+==345940==    at 0x10A53A: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940== 
+==345940== Conditional jump or move depends on uninitialised value(s)
+==345940==    at 0x10A6BD: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940== 
+==345940== Conditional jump or move depends on uninitialised value(s)
+==345940==    at 0x10AA9F: ImprimeResultadoEleicao (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940==    by 0x10AFFE: main (in /mnt/c/Users/Pichau/Desktop/prog-ufes/prog-2/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Ronald/candidato/prog)
+==345940== 
+==345940== 
+==345940== HEAP SUMMARY:
+==345940==     in use at exit: 0 bytes in 0 blocks
+==345940==   total heap usage: 2 allocs, 2 frees, 1,024 bytes allocated
+==345940== 
+==345940== All heap blocks were freed -- no leaks are possible
+==345940== 
+==345940== Use --track-origins=yes to see where uninitialised values come from
+==345940== For lists of detected and suppressed errors, rerun with: -s
+==345940== ERROR SUMMARY: 10 errors from 4 contexts (suppressed: 0 from 0)
