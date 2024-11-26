@@ -1,0 +1,19 @@
+aluno.c: In function ‘LeAluno’:
+aluno.c:19:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   19 |     scanf("%*[^A-Z]");
+      |     ^~~~~
+aluno.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    2 | #include <string.h>
+  +++ |+#include <stdio.h>
+    3 | 
+aluno.c:19:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   19 |     scanf("%*[^A-Z]");
+      |     ^~~~~
+aluno.c:19:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+aluno.c: In function ‘ImprimeAluno’:
+aluno.c:53:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   53 |     printf("%s\n", aluno.nome);
+      |     ^~~~~~
+aluno.c:53:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+aluno.c:53:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+aluno.c:53:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
