@@ -1,0 +1,12 @@
+usuario.c: In function ‘ImprimeUsuario’:
+usuario.c:12:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   12 |     printf("Nome: %s\n", user.nome);
+      |     ^~~~~~
+usuario.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    2 | #include <string.h>
+  +++ |+#include <stdio.h>
+    3 | 
+usuario.c:12:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   12 |     printf("Nome: %s\n", user.nome);
+      |     ^~~~~~
+usuario.c:12:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’

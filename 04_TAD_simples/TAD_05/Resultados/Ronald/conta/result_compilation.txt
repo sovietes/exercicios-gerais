@@ -1,0 +1,12 @@
+conta.c: In function ‘ImprimeConta’:
+conta.c:12:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   12 |     printf("Conta: %d\n", conta.numero);
+      |     ^~~~~~
+conta.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "conta.h"
+  +++ |+#include <stdio.h>
+    2 | 
+conta.c:12:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   12 |     printf("Conta: %d\n", conta.numero);
+      |     ^~~~~~
+conta.c:12:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
