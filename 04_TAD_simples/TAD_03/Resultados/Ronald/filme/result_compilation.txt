@@ -1,0 +1,19 @@
+filme.c: In function ‘leFilme’:
+filme.c:19:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   19 |     scanf("%*[^a-zA-Z]");
+      |     ^~~~~
+filme.c:3:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    2 | #include <string.h>
+  +++ |+#include <stdio.h>
+    3 | 
+filme.c:19:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   19 |     scanf("%*[^a-zA-Z]");
+      |     ^~~~~
+filme.c:19:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+filme.c: In function ‘imprimirNomeFilme’:
+filme.c:33:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   33 |     printf("%s", filme.nome);
+      |     ^~~~~~
+filme.c:33:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+filme.c:33:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+filme.c:33:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
