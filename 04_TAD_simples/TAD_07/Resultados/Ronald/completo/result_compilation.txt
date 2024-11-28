@@ -1,0 +1,21 @@
+data.c: In function ‘ImprimeMesExtenso’:
+data.c:110:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  110 |         printf("Janeiro");
+      |         ^~~~~~
+data.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "data.h"
+  +++ |+#include <stdio.h>
+    2 | 
+data.c:110:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  110 |         printf("Janeiro");
+      |         ^~~~~~
+data.c:110:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+data.c: In function ‘ImprimeDataExtenso’:
+data.c:149:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+  149 |     printf("%02d de ", data.dia);
+      |     ^~~~~~
+data.c:149:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+data.c: In function ‘CalculaDiferencaDias’:
+data.c:155:64: warning: unused variable ‘diferencaAnos’ [-Wunused-variable]
+  155 |     int qtdDiasData1 = 0, qtdDiasData2 = 0, diferencaDias = 0, diferencaAnos = 0;
+      |                                                                ^~~~~~~~~~~~~
