@@ -1,0 +1,16 @@
+departamento.c: In function ‘imprimeAtributosDepartamento’:
+departamento.c:20:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   20 |     printf("ATRIBUTOS:\n");
+      |     ^~~~~~
+departamento.c:4:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    3 | #include <math.h>
+  +++ |+#include <stdio.h>
+    4 | 
+departamento.c:20:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   20 |     printf("ATRIBUTOS:\n");
+      |     ^~~~~~
+departamento.c:20:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+main.c: In function ‘main’:
+main.c:6:11: warning: unused variable ‘media_geral’ [-Wunused-variable]
+    6 |     float media_geral;
+      |           ^~~~~~~~~~~
