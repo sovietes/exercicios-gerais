@@ -1,0 +1,43 @@
+empresa.c: In function ‘leEmpresa’:
+empresa.c:13:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   13 |     scanf("%*[^0-9]");
+      |     ^~~~~
+empresa.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "empresa.h"
+  +++ |+#include <stdio.h>
+    2 | 
+empresa.c:13:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   13 |     scanf("%*[^0-9]");
+      |     ^~~~~
+empresa.c:13:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+empresa.c: In function ‘contrataFuncionarioEmpresa’:
+empresa.c:30:13: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   30 |             printf("A empresa %d ja possui um funcionario com o id %d\n", empresa.id, getIdFuncionario(funcionario));
+      |             ^~~~~~
+empresa.c:30:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+empresa.c:30:13: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+empresa.c:30:13: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+empresa.c: In function ‘imprimeEmpresa’:
+empresa.c:45:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   45 |     printf("Empresa %d:\n", empresa.id);
+      |     ^~~~~~
+empresa.c:45:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+funcionario.c: In function ‘leFuncionario’:
+funcionario.c:14:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+   14 |     scanf("%*[^0-9]");
+      |     ^~~~~
+funcionario.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "funcionario.h"
+  +++ |+#include <stdio.h>
+    2 | 
+funcionario.c:14:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+   14 |     scanf("%*[^0-9]");
+      |     ^~~~~
+funcionario.c:14:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+funcionario.c: In function ‘imprimeFuncionario’:
+funcionario.c:25:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   25 |     printf("- Funcionario %d: RS %.2f\n", getIdFuncionario(funcionario), funcionario.salario);
+      |     ^~~~~~
+funcionario.c:25:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+funcionario.c:25:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+funcionario.c:25:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
