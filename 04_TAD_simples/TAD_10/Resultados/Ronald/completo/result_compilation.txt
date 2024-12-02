@@ -1,0 +1,19 @@
+livro.c: In function ‘lerLivro’:
+livro.c:5:5: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+    5 |     scanf("%*[^a-zA-Z0-9]");
+      |     ^~~~~
+livro.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "livro.h"
+  +++ |+#include <stdio.h>
+    2 | 
+livro.c:5:5: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+    5 |     scanf("%*[^a-zA-Z0-9]");
+      |     ^~~~~
+livro.c:5:5: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+livro.c: In function ‘imprimeLivro’:
+livro.c:15:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   15 |     printf("Titulo: %s\n", livro.titulo);
+      |     ^~~~~~
+livro.c:15:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+livro.c:15:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+livro.c:15:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
