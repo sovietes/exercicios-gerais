@@ -1,0 +1,46 @@
+loja.c: In function ‘ImprimeRelatorioLoja’:
+loja.c:79:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   79 |     printf("Loja %d: Lucro total: R$ %.2f\n", loja.id, loja.lucro);
+      |     ^~~~~~
+loja.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "loja.h"
+  +++ |+#include <stdio.h>
+    2 | 
+loja.c:79:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   79 |     printf("Loja %d: Lucro total: R$ %.2f\n", loja.id, loja.lucro);
+      |     ^~~~~~
+loja.c:79:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+loja.c: In function ‘ContrataVendedor’:
+loja.c:31:12: warning: ‘VerificaNomeVendedor’ accessing 50 bytes in a region of size 2 [-Wstringop-overflow=]
+   31 |         if(VerificaNomeVendedor(loja.vendedores[i], "\0")) {
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+loja.c:31:12: note: referencing argument 2 of type ‘char *’
+In file included from loja.h:4,
+                 from loja.c:1:
+vendedor.h:29:5: note: in a call to function ‘VerificaNomeVendedor’
+   29 | int VerificaNomeVendedor(tVendedor vendedor, char nome[50]);
+      |     ^~~~~~~~~~~~~~~~~~~~
+loja.c: In function ‘CalculaLucro’:
+loja.c:63:13: warning: ‘VerificaNomeVendedor’ accessing 50 bytes in a region of size 2 [-Wstringop-overflow=]
+   63 |         if(!VerificaNomeVendedor(loja.vendedores[i], "\0")) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+loja.c:63:13: note: referencing argument 2 of type ‘char *’
+In file included from loja.h:4,
+                 from loja.c:1:
+vendedor.h:29:5: note: in a call to function ‘VerificaNomeVendedor’
+   29 | int VerificaNomeVendedor(tVendedor vendedor, char nome[50]);
+      |     ^~~~~~~~~~~~~~~~~~~~
+loja.c: In function ‘ImprimeRelatorioLoja’:
+loja.c:82:13: warning: ‘VerificaNomeVendedor’ accessing 50 bytes in a region of size 2 [-Wstringop-overflow=]
+   82 |         if(!VerificaNomeVendedor(loja.vendedores[i], "\0")) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+loja.c:82:13: note: referencing argument 2 of type ‘char *’
+In file included from loja.h:4,
+                 from loja.c:1:
+vendedor.h:29:5: note: in a call to function ‘VerificaNomeVendedor’
+   29 | int VerificaNomeVendedor(tVendedor vendedor, char nome[50]);
+      |     ^~~~~~~~~~~~~~~~~~~~
+main.c: In function ‘EsvaziaVetorLojas’:
+main.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^

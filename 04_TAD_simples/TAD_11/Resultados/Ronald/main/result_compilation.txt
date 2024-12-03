@@ -1,0 +1,4 @@
+main.c: In function ‘EsvaziaVetorLojas’:
+main.c:100:1: warning: control reaches end of non-void function [-Wreturn-type]
+  100 | }
+      | ^
