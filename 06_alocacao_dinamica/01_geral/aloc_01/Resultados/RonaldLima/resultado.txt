@@ -4,14 +4,14 @@ Pastas Linkadas Corretamente: 3 de 3
 Teste main
   - Resultados corretos: 2 de 2
   - Valgrinds corretos: 2 de 2
-Nota de RonaldLima para o teste main: 
+Nota de RonaldLima para o teste main: 3.34
 Teste completo
-  - Resultados corretos: 0 de 2
-  - Valgrinds corretos: 0 de 2
-Nota de RonaldLima para o teste completo: 
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 2 de 2
+Nota de RonaldLima para o teste completo: 3.33
 Teste utils
-  - Resultados corretos: 0 de 2
-  - Valgrinds corretos: 0 de 2
-Nota de RonaldLima para o teste utils: 
-Nota de RonaldLima: 0+()+()+()
-Nota de RonaldLima: 
+  - Resultados corretos: 2 de 2
+  - Valgrinds corretos: 2 de 2
+Nota de RonaldLima para o teste utils: 3.33
+Nota de RonaldLima: 0+(3.33)+(3.34)+(3.33)
+Nota de RonaldLima: 10.00

@@ -7,7 +7,7 @@ int main() {
   vetor = CriaVetor(qtdElementos);
   LeVetor(vetor, qtdElementos);
 
-  printf("%.2f", CalculaMedia(vetor, qtdElementos));
+  printf("%.2f\n", CalculaMedia(vetor, qtdElementos));
 
   LiberaVetor(vetor);
   

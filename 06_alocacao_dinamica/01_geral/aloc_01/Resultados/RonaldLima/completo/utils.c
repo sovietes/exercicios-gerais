@@ -13,17 +13,17 @@ int *CriaVetor(int tamanho) {
 void LeVetor(int *vetor, int tamanho) {
   int i;
   for(i = 0; i < tamanho; i++) {
-    scanf("%d", vetor);
+    scanf("%d", &vetor[i]);
   }
 }
 
 float CalculaMedia(int *vetor, int tamanho) {
   int i;
-  float media;
+  float media = 0;
   for(i = 0; i < tamanho; i++) {
-    media += vetor[i];
+    media += (float)vetor[i];
   }
-  media /= tamanho;
+  media /= (float)tamanho;
   return media;
 }
 
