@@ -1,1 +1,2 @@
-valgrind: Resultados/RonaldLima/completo/prog: No such file or directory
+_________________________________________________________________________________________________________
+Eh claro que a complexidade dos estudos efetuados estende o alcance e a importancia das novas proposicoes

@@ -1,0 +1,12 @@
+main.c: In function ‘main’:
+main.c:14:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   14 |     free(vet);
+      |     ^~~~
+main.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+    2 | #include "utils_char.h"
+  +++ |+#include <stdlib.h>
+    3 | 
+main.c:14:5: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+   14 |     free(vet);
+      |     ^~~~
+main.c:14:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’

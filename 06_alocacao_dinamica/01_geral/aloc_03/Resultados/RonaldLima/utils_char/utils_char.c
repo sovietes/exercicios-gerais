@@ -6,7 +6,7 @@
 char *CriaVetor(int tamanho) {
     int i;
     char *vetor;
-    vetor = malloc(tamanho*sizeof(char));
+    vetor = malloc(tamanho*sizeof(char) +1);
     
     if(vetor == NULL) {
         printf("Erro ao criar o vetor.\n");
