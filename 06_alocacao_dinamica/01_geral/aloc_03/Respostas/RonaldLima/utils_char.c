@@ -7,12 +7,17 @@ char *CriaVetor(int tamanho) {
     int i;
     char *vetor;
     vetor = malloc(tamanho*sizeof(char));
-    assert(vetor);
+    
+    if(vetor == NULL) {
+        printf("Erro ao criar o vetor.\n");
+        exit(0);
+    }
 
     for(i = 0; i < tamanho; i++) {
-        vetor[i] = '_';
+        *(vetor+i) = '_';
     }
-    
+    *(vetor+i) = '\0';
+
     return vetor;
 }
 
@@ -23,15 +28,13 @@ void LeVetor(char *vetor, int tamanho) {
     for(i = 0; i < tamanho; i++) {
         scanf("%c", &c);
         if(c == '\n') break;
-        vetor[i] = c;
+        *(vetor+i) = c;
     }
 }
 
 void ImprimeString(char *vetor, int tamanho) {
     int i;
-    for(i = 0; i < tamanho; i++) {
-        printf("%c", vetor[i]);
-    }
+    printf("%s", vetor);
     printf("\n");
 }
 

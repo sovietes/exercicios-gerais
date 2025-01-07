@@ -11,7 +11,7 @@ Teste completo
 Nota de RonaldLima para o teste completo: 0
 Teste utils_char
   - Resultados corretos: 3 de 6
-  - Valgrinds corretos: 6 de 6
-Nota de RonaldLima para o teste utils_char: 1.66
-Nota de RonaldLima: 0+(0)+(0)+(1.66)
-Nota de RonaldLima: 1.66
+  - Valgrinds corretos: 0 de 6
+Nota de RonaldLima para o teste utils_char: .83
+Nota de RonaldLima: 0+(.83)+(0)+(0)
+Nota de RonaldLima: .83

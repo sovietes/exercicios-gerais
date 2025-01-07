@@ -1,0 +1,4 @@
+utils_char.c: In function ‘ImprimeString’:
+utils_char.c:36:9: warning: unused variable ‘i’ [-Wunused-variable]
+   36 |     int i;
+      |         ^

@@ -455,7 +455,7 @@ executa_professor() {
                     rm $file
                 fi
             done < <(find "$DIR_INCLUDES" -type f -name "*.h" -print0)
-
+            
         fi
 
     else
@@ -581,7 +581,7 @@ executa_aluno() {
         if [ -d "$STUDENT_ANSWER_FOLDER" ]; then
             (( iteration++ ))
 
-
+            
 
             # Get the student name
             delimiter="/" # Set the delimiter
@@ -645,11 +645,11 @@ executa_aluno() {
                 sscanf "${lines[index]}" "Nota de (.*): (.*)"
                 nota_final_aluno["$student_name"]=${BASH_REMATCH[2]}
                 (( index++ ))
-
+                
                 continue
             fi
 
-
+            
 
             ##########################################
             # criando os diretorios de resultados para cada aluno
@@ -1099,7 +1099,7 @@ executa_aluno() {
             cria_arquivo_resultado_aluno $student_name
 
         fi
-
+        
     done < <(find "$DIR_RESPOSTAS" -mindepth 1 -type d -print0 | sort -z)
 }
 
