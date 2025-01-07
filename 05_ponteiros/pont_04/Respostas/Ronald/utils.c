@@ -1,4 +1,5 @@
 #include "./utils.h"
+#include <stdio.h>
 
 /**
  * @brief Lê uma sequência de inteiros da entrada padrão e os armazena em um array.
