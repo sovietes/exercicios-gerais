@@ -1,0 +1,19 @@
+pessoa.c: In function ‘ImprimePessoa’:
+pessoa.c:57:67: warning: pointer type mismatch in conditional expression
+   57 |         printf("PAI: %s\n", pessoa->pai == NULL ? "NAO INFORMADO" : pessoa->pai);
+      |                                                                   ^
+pessoa.c:57:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+   57 |         printf("PAI: %s\n", pessoa->pai == NULL ? "NAO INFORMADO" : pessoa->pai);
+      |                      ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |                                           |
+      |                       char *                                      void *
+      |                      %p
+pessoa.c:58:67: warning: pointer type mismatch in conditional expression
+   58 |         printf("MAE: %s\n", pessoa->mae == NULL ? "NAO INFORMADO" : pessoa->mae);
+      |                                                                   ^
+pessoa.c:58:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+   58 |         printf("MAE: %s\n", pessoa->mae == NULL ? "NAO INFORMADO" : pessoa->mae);
+      |                      ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |                                           |
+      |                       char *                                      void *
+      |                      %p
