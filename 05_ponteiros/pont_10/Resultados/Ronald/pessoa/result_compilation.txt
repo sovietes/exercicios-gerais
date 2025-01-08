@@ -1,0 +1,28 @@
+pessoa.c: In function ‘ImprimePessoa’:
+pessoa.c:58:67: warning: pointer type mismatch in conditional expression
+   58 |         printf("PAI: %s\n", pessoa->pai == NULL ? "NAO INFORMADO" : pessoa->pai);
+      |                                                                   ^
+pessoa.c:58:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+   58 |         printf("PAI: %s\n", pessoa->pai == NULL ? "NAO INFORMADO" : pessoa->pai);
+      |                      ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |                                           |
+      |                       char *                                      void *
+      |                      %p
+pessoa.c:59:67: warning: pointer type mismatch in conditional expression
+   59 |         printf("MAE: %s\n", pessoa->mae == NULL ? "NAO INFORMADO" : pessoa->mae);
+      |                                                                   ^
+pessoa.c:59:23: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+   59 |         printf("MAE: %s\n", pessoa->mae == NULL ? "NAO INFORMADO" : pessoa->mae);
+      |                      ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                       |                                           |
+      |                       char *                                      void *
+      |                      %p
+pessoa.c:60:71: warning: pointer type mismatch in conditional expression
+   60 |         printf("IRMAO: %s\n", pessoa->irmao == NULL ? "NAO INFORMADO" : pessoa->irmao);
+      |                                                                       ^
+pessoa.c:60:25: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘void *’ [-Wformat=]
+   60 |         printf("IRMAO: %s\n", pessoa->irmao == NULL ? "NAO INFORMADO" : pessoa->irmao);
+      |                        ~^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |                                             |
+      |                         char *                                        void *
+      |                        %p
