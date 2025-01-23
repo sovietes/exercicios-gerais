@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 4 de 4
+Teste main
+  - Resultados corretos: 19 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de Ronald para o teste main: 2.50
+Teste completo
+  - Resultados corretos: 19 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de Ronald para o teste completo: 2.50
+Teste locadora
+  - Resultados corretos: 19 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de Ronald para o teste locadora: 2.50
+Teste filme
+  - Resultados corretos: 19 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de Ronald para o teste filme: 2.50
+Nota de Ronald: 0+(2.50)+(2.50)+(2.50)+(2.50)
+Nota de Ronald: 10.00
