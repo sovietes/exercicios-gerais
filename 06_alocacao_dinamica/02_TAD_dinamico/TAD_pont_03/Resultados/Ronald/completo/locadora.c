@@ -143,7 +143,9 @@ void AlugarFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodi
         // Verifica se o filme com o codigo existe
         if(VerificarFilmeCadastrado(locadora, codigos[i])) {
             // Varre os filmes cadastrados
-            for(j = 0; j < locadora->numFilmes; j++) {
+            for(j = 0; j < QTD_MAX_FILMES; j++) {
+                // Só ler se tiver algo registrado
+                if(!locadora->filme[j]) continue;
                 // Encontra o filme com o mesmo codigo
                 if(EhMesmoCodigoFilme(locadora->filme[j], codigos[i])) {
                     // Se tiver estoque, aluga
@@ -208,7 +210,10 @@ void DevolverFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCo
     int i, j;
 
     for(i = 0; i < quantidadeCodigos; i++) {
-        for(j = 0; j < locadora->numFilmes; j++) {
+        for(j = 0; j < QTD_MAX_FILMES; j++) {
+            // Só ler se tiver filme registrado na posicao
+            if(!locadora->filme[j]) continue;
+
             if(VerificarFilmeCadastrado(locadora, codigos[i])) {// Se o filme esta cadastrado
                 if(EhMesmoCodigoFilme(locadora->filme[j], codigos[i])) {
                     if(ObterQtdAlugadaFilme(locadora->filme[j])) { // Se tiver algum alugado, devolver
@@ -293,7 +298,10 @@ void ConsultarEstoqueLocadora (tLocadora* locadora) {
     int i;
     printf("~ESTOQUE~\n");
 
-    for(i = 0; i < locadora->numFilmes; i++) {
+    for(i = 0; i < QTD_MAX_FILMES; i++) {
+        // So printa se n for null
+        if(!locadora->filme[i]) continue;
+
         printf("%d - ", ObterCodigoFilme(locadora->filme[i]));
         ImprimirNomeFilme(locadora->filme[i]);
         printf(" Fitas em estoque: %d\n", ObterQtdEstoqueFilme(locadora->filme[i]));
