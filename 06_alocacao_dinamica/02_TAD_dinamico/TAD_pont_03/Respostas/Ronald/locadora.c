@@ -274,10 +274,10 @@ void LerDevolucaoLocadora (tLocadora* locadora) {
  */
 void OrdenarFilmesLocadora (tLocadora* locadora) {
     int i, j; tFilme *ptrFilme;
-    for(i = 0; i < locadora->numFilmes; i++) {
+    for(i = 0; i < QTD_MAX_FILMES; i++) {
         if(!locadora->filme[i]) continue;  // Verifica se o filme n eh null
 
-            for(j = i+1; j < locadora->numFilmes; j++) {
+            for(j = i+1; j < QTD_MAX_FILMES; j++) {
                 if(!locadora->filme[j]) continue; // Verifica se o filme n eh null
 
                     if(CompararNomesFilmes(locadora->filme[i], locadora->filme[j]) == 1) {
