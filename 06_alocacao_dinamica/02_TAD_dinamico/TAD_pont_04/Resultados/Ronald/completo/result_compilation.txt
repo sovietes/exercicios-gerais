@@ -1,0 +1,11 @@
+main.c: In function ‘main’:
+main.c:17:5: warning: implicit declaration of function ‘OrdenaAlunos’ [-Wimplicit-function-declaration]
+   17 |     OrdenaAlunos(alunos, qtdAlunos);
+      |     ^~~~~~~~~~~~
+main.c: At top level:
+main.c:31:6: warning: conflicting types for ‘OrdenaAlunos’; have ‘void(tAluno **, int)’ {aka ‘void(struct Aluno **, int)’}
+   31 | void OrdenaAlunos(tAluno **alunos, int qtdAlunos) {
+      |      ^~~~~~~~~~~~
+main.c:17:5: note: previous implicit declaration of ‘OrdenaAlunos’ with type ‘void(tAluno **, int)’ {aka ‘void(struct Aluno **, int)’}
+   17 |     OrdenaAlunos(alunos, qtdAlunos);
+      |     ^~~~~~~~~~~~
