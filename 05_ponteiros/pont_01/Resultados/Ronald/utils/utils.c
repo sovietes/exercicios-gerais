@@ -1,3 +1,5 @@
+#include "./utils.h"
+
 /**
  * @brief Troca os valores de duas variáveis inteiras.
  * 
