@@ -1,25 +1,25 @@
-Arquivos Esperados Corretos: 4 de 7
-Pastas Compiladas Corretamente: 2 de 5 
-Pastas Linkadas Corretamente: 1 de 5
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 5 de 5 
+Pastas Linkadas Corretamente: 5 de 5
 Teste main
-  - Resultados corretos: 0 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Ronald para o teste main: 0
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Ronald para o teste main: 2.00
 Teste completo
-  - Resultados corretos: 0 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Ronald para o teste completo: 0
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Ronald para o teste completo: 2.00
 Teste usuario
   - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
 Nota de Ronald para o teste usuario: 2.00
 Teste conta
-  - Resultados corretos: 0 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Ronald para o teste conta: 0
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Ronald para o teste conta: 2.00
 Teste banco
-  - Resultados corretos: 0 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Ronald para o teste banco: 0
-Nota de Ronald: 0+(0)+(0)+(0)+(2.00)+(0)
-Nota de Ronald: 2.00
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Ronald para o teste banco: 2.00
+Nota de Ronald: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
+Nota de Ronald: 10.00

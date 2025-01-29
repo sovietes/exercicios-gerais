@@ -39,7 +39,7 @@ void LeUsuario(tUsuario *user) {
     scanf("%*[^a-zA-Z]");
 
     // Lerei com o scanf pois preciso parar no espaco
-    scanf("%49s %14s", user->nome, user->cpf);   
+    scanf("%49[^ ] %14[^ ]", user->nome, user->cpf);   
 }
 
 /**
