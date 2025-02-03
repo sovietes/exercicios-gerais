@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "funcionario.h": "c",
+        "empresa.h": "c",
+        "stdio.h": "c"
+    }
+}
