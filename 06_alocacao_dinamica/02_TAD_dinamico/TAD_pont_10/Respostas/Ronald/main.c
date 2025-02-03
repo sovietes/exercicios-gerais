@@ -15,12 +15,6 @@ int main() {
     for(i = 0; i < qtdOperacoes; i++) {
         scanf("%d", &operacao);
 
-        // Para a execucao
-        if(operacao == 5) {
-            printf("Operacao invalida!\n");
-            break;
-        }
-
         switch (operacao)
         {
         case 1:
@@ -40,6 +34,10 @@ int main() {
         case 3:
             ListarLivrosDaBiblioteca(biblioteca);
             break;
+        default:
+            printf("Operacao invalida!\n");
+            ApagaBiblioteca(biblioteca);
+            exit(0);
         }
     }
 
