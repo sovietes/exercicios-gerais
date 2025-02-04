@@ -1,0 +1,4 @@
+array.c: In function ‘ImprimeArray’:
+array.c:69:12: warning: unused variable ‘j’ [-Wunused-variable]
+   69 |     int i, j;
+      |            ^
