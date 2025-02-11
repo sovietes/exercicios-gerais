@@ -1,0 +1,15 @@
+==41601== Memcheck, a memory error detector
+==41601== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==41601== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==41601== Command: Resultados/Ronald/jogada/prog Resultados/Ronald/jogada/Casos/2
+==41601== Parent PID: 41600
+==41601== 
+==41601== 
+==41601== HEAP SUMMARY:
+==41601==     in use at exit: 0 bytes in 0 blocks
+==41601==   total heap usage: 68 allocs, 68 frees, 1,756 bytes allocated
+==41601== 
+==41601== All heap blocks were freed -- no leaks are possible
+==41601== 
+==41601== For lists of detected and suppressed errors, rerun with: -s
+==41601== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
