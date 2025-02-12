@@ -1,0 +1,13 @@
+operacao.c: In function ‘ImprimeOperacao’:
+operacao.c:56:34: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+   56 |     printf("\nOperação na conta %d com valor %.2f", ConsultaValorOperacao(op), RetornaIdConta(op->conta));
+      |                                 ~^                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  |                  |
+      |                                  int                double
+      |                                 %f
+operacao.c:56:49: warning: format ‘%f’ expects argument of type ‘double’, but argument 3 has type ‘int’ [-Wformat=]
+   56 |     printf("\nOperação na conta %d com valor %.2f", ConsultaValorOperacao(op), RetornaIdConta(op->conta));
+      |                                              ~~~^                              ~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                 |                              |
+      |                                                 double                         int
+      |                                              %.2d
