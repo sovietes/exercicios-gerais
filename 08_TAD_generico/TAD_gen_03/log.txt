@@ -1,0 +1,224 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Ronald
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Ronald:
+ - Diretório Resultados/Ronald criado com sucesso!
+ - Diretório Resultados/Ronald/main criado com sucesso!
+ - Diretório Resultados/Ronald/completo criado com sucesso!
+ - Diretório Resultados/Ronald/aluno criado com sucesso!
+ - Diretório Resultados/Ronald/vector criado com sucesso!
+ - Diretório Resultados/Ronald/relatorio criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Ronald/aluno.c' encontrado!
+ - Arquivo esperado 'Respostas/Ronald/aluno.h' encontrado!
+ - Arquivo esperado 'Respostas/Ronald/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Ronald/relatorio.c' encontrado!
+ - Arquivo esperado 'Respostas/Ronald/relatorio.h' encontrado!
+ - Arquivo esperado 'Respostas/Ronald/vector.c' encontrado!
+ - Arquivo esperado 'Respostas/Ronald/vector.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Ronald/main
+ - Copiando os Includes/aluno.h Includes/relatorio.h Includes/vector.h do professor para a pasta Resultados/Ronald/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ronald/main
+ - Removendo o main.o do professor da pasta Resultados/Ronald/main
+ - Copiando o Respostas/Ronald/main.c do aluno para a pasta Resultados/Ronald/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Ronald/completo
+ - Copiando os Respostas/Ronald/aluno.c do aluno para a pasta Resultados/Ronald/completo
+ - Copiando os Respostas/Ronald/aluno.h do aluno para a pasta Resultados/Ronald/completo
+ - Copiando os Respostas/Ronald/main.c do aluno para a pasta Resultados/Ronald/completo
+ - Copiando os Respostas/Ronald/relatorio.c do aluno para a pasta Resultados/Ronald/completo
+ - Copiando os Respostas/Ronald/relatorio.h do aluno para a pasta Resultados/Ronald/completo
+ - Copiando os Respostas/Ronald/vector.c do aluno para a pasta Resultados/Ronald/completo
+ - Copiando os Respostas/Ronald/vector.h do aluno para a pasta Resultados/Ronald/completo
+ - Pasta aluno:
+ - Copiando os Casos de teste para a pasta Resultados/Ronald/aluno
+ - Copiando os Includes/aluno.h Includes/relatorio.h Includes/vector.h do professor para a pasta Resultados/Ronald/aluno
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ronald/aluno
+ - Removendo o aluno.o do professor da pasta Resultados/Ronald/aluno
+ - Copiando o Respostas/Ronald/aluno.c do aluno para a pasta Resultados/Ronald/aluno
+ - Pasta vector:
+ - Copiando os Casos de teste para a pasta Resultados/Ronald/vector
+ - Copiando os Includes/aluno.h Includes/relatorio.h Includes/vector.h do professor para a pasta Resultados/Ronald/vector
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ronald/vector
+ - Removendo o vector.o do professor da pasta Resultados/Ronald/vector
+ - Copiando o Respostas/Ronald/vector.c do aluno para a pasta Resultados/Ronald/vector
+ - Pasta relatorio:
+ - Copiando os Casos de teste para a pasta Resultados/Ronald/relatorio
+ - Copiando os Includes/aluno.h Includes/relatorio.h Includes/vector.h do professor para a pasta Resultados/Ronald/relatorio
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Ronald/relatorio
+ - Removendo o relatorio.o do professor da pasta Resultados/Ronald/relatorio
+ - Copiando o Respostas/Ronald/relatorio.c do aluno para a pasta Resultados/Ronald/relatorio
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Ronald/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Ronald/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta aluno ok!
+ - Arquivo de output gerado: Resultados/Ronald/aluno/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta vector ok!
+ - Arquivo de output gerado: Resultados/Ronald/vector/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta relatorio ok!
+ - Arquivo de output gerado: Resultados/Ronald/relatorio/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ronald/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ronald/completo/result_linking.txt
+ - Pasta aluno:
+ - Gerando o binário prog linkando com o(s) arquivo(s) aluno/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ronald/aluno/result_linking.txt
+ - Pasta vector:
+ - Gerando o binário prog linkando com o(s) arquivo(s) vector/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ronald/vector/result_linking.txt
+ - Pasta relatorio:
+ - Gerando o binário prog linkando com o(s) arquivo(s) relatorio/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Ronald/relatorio/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Ronald/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Ronald/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Ronald/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Ronald/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Ronald/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Ronald/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta aluno / Caso 1:
+ - Arquivo de output gerado: Resultados/Ronald/aluno/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta aluno / Caso 2:
+ - Arquivo de output gerado: Resultados/Ronald/aluno/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta aluno / Caso 3:
+ - Arquivo de output gerado: Resultados/Ronald/aluno/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta aluno (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta vector / Caso 1:
+ - Arquivo de output gerado: Resultados/Ronald/vector/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta vector / Caso 2:
+ - Arquivo de output gerado: Resultados/Ronald/vector/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta vector / Caso 3:
+ - Arquivo de output gerado: Resultados/Ronald/vector/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 15, frees: 15, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta vector (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta relatorio / Caso 1:
+ - Arquivo de output gerado: Resultados/Ronald/relatorio/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 8, frees: 8, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta relatorio / Caso 2:
+ - Arquivo de output gerado: Resultados/Ronald/relatorio/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 9, frees: 9, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta relatorio / Caso 3:
+ - Arquivo de output gerado: Resultados/Ronald/relatorio/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta relatorio (máximo 2.00) - 30.00 de 30 - 100.00% de 2.00: 2.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Ronald
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 5 de 5 
+ - Pastas Linkadas Corretamente: 5 de 5
+ - Teste main
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Ronald para o teste main: 2.00
+ - Teste completo
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Ronald para o teste completo: 2.00
+ - Teste aluno
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Ronald para o teste aluno: 2.00
+ - Teste vector
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Ronald para o teste vector: 2.00
+ - Teste relatorio
+ - Resultados corretos: 3 de 3
+ - Valgrinds corretos: 3 de 3
+ - Nota de Ronald para o teste relatorio: 2.00
+ - Nota de Ronald: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
+ - Nota de Ronald: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
