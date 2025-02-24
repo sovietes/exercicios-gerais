@@ -1,0 +1,8 @@
+pacote.c: In function ‘LePacote’:
+pacote.c:69:10: warning: unused variable ‘caractere’ [-Wunused-variable]
+   69 |     char caractere;
+      |          ^~~~~~~~~
+pacote.c: In function ‘ImprimePacote’:
+pacote.c:105:44: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  105 |             i == (pac->numElem-1) ? printf("") : printf(" ");
+      |                                            ^~
