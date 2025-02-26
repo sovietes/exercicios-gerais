@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 5 de 5
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 4 de 4
+Teste main
+  - Resultados corretos: 9 de 9
+  - Valgrinds corretos: 9 de 9
+Nota de Ronald para o teste main: 2.50
+Teste completo
+  - Resultados corretos: 9 de 9
+  - Valgrinds corretos: 9 de 9
+Nota de Ronald para o teste completo: 2.50
+Teste matrizgenerica
+  - Resultados corretos: 9 de 9
+  - Valgrinds corretos: 9 de 9
+Nota de Ronald para o teste matrizgenerica: 2.50
+Teste numcomplexo
+  - Resultados corretos: 9 de 9
+  - Valgrinds corretos: 9 de 9
+Nota de Ronald para o teste numcomplexo: 2.50
+Nota de Ronald: 0+(2.50)+(2.50)+(2.50)+(2.50)
+Nota de Ronald: 10.00
