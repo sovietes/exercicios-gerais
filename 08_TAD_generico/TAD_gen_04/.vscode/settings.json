@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "conta.h": "c",
+        "vector.h": "c"
+    }
+}
