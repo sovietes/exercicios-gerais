@@ -19,8 +19,8 @@ CHECKANDO OS ARQUIVOS DO ALUNO:
  - Arquivo esperado 'Respostas/Ronald/aluno.h' encontrado!
  - Arquivo esperado 'Respostas/Ronald/base_alunos.c' encontrado!
  - Arquivo esperado 'Respostas/Ronald/base_alunos.h' encontrado!
- - Arquivo esperado 'Respostas/Ronald/main.c' não encontrado!
- - Arquivos esperados enviados: Faltando!
+ - Arquivo esperado 'Respostas/Ronald/main.c' encontrado!
+ - Arquivos esperados enviados: Ok!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Pasta main:
@@ -52,25 +52,24 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Arquivos copiados: ok!
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
- - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Ronald/main/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta completo ok!
  - Arquivo de output gerado: Resultados/Ronald/completo/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta base_alunos ok!
  - Arquivo de output gerado: Resultados/Ronald/base_alunos/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta aluno ok!
  - Arquivo de output gerado: Resultados/Ronald/aluno/result_compilation.txt
- - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
-
  - Arquivos Compilados: ok!
 
 LINKANDO OS ARQUIVOS COMPILADOS:
  - Pasta main:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Ronald/main/result_linking.txt
  - Pasta completo:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Ronald/completo/result_linking.txt
  - Pasta base_alunos:
  - Gerando o binário prog linkando com o(s) arquivo(s) base_alunos/*.o
@@ -80,66 +79,73 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Gerando o binário prog linkando com o(s) arquivo(s) aluno/*.o
  - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Ronald/aluno/result_linking.txt
- - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta main (máximo 2.50) - 0 de 40 - 0% de 2.50: 0.
+ - Arquivo de output gerado: Resultados/Ronald/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 40.00 de 40 - 100.00% de 2.50: 2.50.
  -----
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/Ronald/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta completo (máximo 2.50) - 0 de 40 - 0% de 2.50: 0.
+ - Arquivo de output gerado: Resultados/Ronald/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 40.00 de 40 - 100.00% de 2.50: 2.50.
  -----
  - Pasta base_alunos / Caso 1:
  - Arquivo de output gerado: Resultados/Ronald/base_alunos/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 5, frees: 0, errors: 3 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta base_alunos / Caso 2:
  - Arquivo de output gerado: Resultados/Ronald/base_alunos/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 5, frees: 0, errors: 3 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta base_alunos / Caso 3:
  - Arquivo de output gerado: Resultados/Ronald/base_alunos/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 5, frees: 0, errors: 3 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta base_alunos / Caso 4:
  - Arquivo de output gerado: Resultados/Ronald/base_alunos/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 5, frees: 0, errors: 3 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta base_alunos (máximo 2.50) - 0 de 40 - 0% de 2.50: 0.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta base_alunos (máximo 2.50) - 40.00 de 40 - 100.00% de 2.50: 2.50.
  -----
  - Pasta aluno / Caso 1:
  - Arquivo de output gerado: Resultados/Ronald/aluno/Casos/1/result_valgrind.txt.
@@ -170,27 +176,27 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: Ronald
- - Arquivos Esperados Corretos: 4 de 5
- - Pastas Compiladas Corretamente: 3 de 4 
- - Pastas Linkadas Corretamente: 2 de 4
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
  - Teste main
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de Ronald para o teste main: 0
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
+ - Nota de Ronald para o teste main: 2.50
  - Teste completo
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de Ronald para o teste completo: 0
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
+ - Nota de Ronald para o teste completo: 2.50
  - Teste base_alunos
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de Ronald para o teste base_alunos: 0
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
+ - Nota de Ronald para o teste base_alunos: 2.50
  - Teste aluno
  - Resultados corretos: 4 de 4
  - Valgrinds corretos: 4 de 4
  - Nota de Ronald para o teste aluno: 2.50
- - Nota de Ronald: 0+(0)+(2.50)+(0)+(0)
- - Nota de Ronald: 2.50
+ - Nota de Ronald: 0+(2.50)+(2.50)+(2.50)+(2.50)
+ - Nota de Ronald: 10.00
 
 ----------------------------------------------------------------------------
 

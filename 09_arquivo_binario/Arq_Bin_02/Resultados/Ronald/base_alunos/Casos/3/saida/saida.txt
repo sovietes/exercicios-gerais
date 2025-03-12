@@ -1,1 +1,1 @@
-timeout: the monitored command dumped core
+Coeficiente de Rendimento Medio da base de alunos: 5.26

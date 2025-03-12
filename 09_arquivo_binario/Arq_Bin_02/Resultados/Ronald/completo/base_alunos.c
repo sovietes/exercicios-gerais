@@ -29,6 +29,8 @@ void DestruirBaseAlunos(tBaseAlunos* baseAlunos) {
         for(i = 0; i < baseAlunos->qtdAlunos; i++) {
             DestruirAluno(baseAlunos->alunos[i]);
         }
+        free(baseAlunos->alunos);
+
         free(baseAlunos);
     }
 }
@@ -44,10 +46,13 @@ void LerBaseAlunos(tBaseAlunos* baseAlunos, char* nomeArquivo) {
     int i;
 
     fread(&baseAlunos->qtdAlunos, sizeof(int), 1, fp);
+    baseAlunos->alunos = (tAluno **) malloc(sizeof(tAluno *) * (baseAlunos->qtdAlunos));
 
     for(i = 0; i < baseAlunos->qtdAlunos; i++) {
         baseAlunos->alunos[i] = LeAluno(fp);
     }
+
+    fclose(fp);
 }
 
 /**
