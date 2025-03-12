@@ -115,10 +115,6 @@ void CarregaAlunosBinario(Aluno **alunos, char *fileName) {
 
     // Preenchendo os 100 primeiros bytes com 0 que, em termos de char, equivale a \0.
     // Lembrando que se fosse int, seria diferente, pois o memset funciona apenas com bytes
-    memset(nome, 0, 100);
-    memset(dataNasc, 0, 100);
-    memset(curso, 0, 100);
-    memset(periodo, 0, 100);
     prctConclusao = 0;
     CRA = 0;
 
@@ -126,6 +122,11 @@ void CarregaAlunosBinario(Aluno **alunos, char *fileName) {
     fread(&numAlunos, sizeof(int), 1, fp);
 
     for(i = 0; i < numAlunos; i++) {
+        memset(nome, 0, 100);
+        memset(dataNasc, 0, 100);
+        memset(curso, 0, 100);
+        memset(periodo, 0, 100);
+
         // Lendo o nome
         fread(&auxTamanho, sizeof(int), 1, fp);
         fread(nome, sizeof(char), auxTamanho, fp);
