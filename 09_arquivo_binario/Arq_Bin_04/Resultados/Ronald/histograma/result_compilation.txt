@@ -1,0 +1,12 @@
+histograma.c: In function ‘CalcularHistograma’:
+histograma.c:27:5: warning: implicit declaration of function ‘memset’ [-Wimplicit-function-declaration]
+   27 |     memset(hst->nPixelsIntervalo, 0, (hst->nIntervalos)*sizeof(int));
+      |     ^~~~~~
+histograma.c:5:1: note: include ‘<string.h>’ or provide a declaration of ‘memset’
+    4 | #include "./histograma.h"
+  +++ |+#include <string.h>
+    5 | 
+histograma.c:27:5: warning: incompatible implicit declaration of built-in function ‘memset’ [-Wbuiltin-declaration-mismatch]
+   27 |     memset(hst->nPixelsIntervalo, 0, (hst->nIntervalos)*sizeof(int));
+      |     ^~~~~~
+histograma.c:27:5: note: include ‘<string.h>’ or provide a declaration of ‘memset’

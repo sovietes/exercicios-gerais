@@ -1,0 +1,7 @@
+imagem.c: In function ‘LerImagem’:
+imagem.c:31:31: warning: dereferencing ‘void *’ pointer
+   31 |             fread(&img->imagem[i*sizeof(int)], sizeof(int), 1, fp);
+      |                               ^
+imagem.c:37:31: warning: dereferencing ‘void *’ pointer
+   37 |             fread(&img->imagem[i*sizeof(float)], sizeof(float), 1, fp);
+      |                               ^

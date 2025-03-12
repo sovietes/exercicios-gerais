@@ -1,0 +1,15 @@
+==99381== Memcheck, a memory error detector
+==99381== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==99381== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==99381== Command: Resultados/Ronald/histograma/prog Resultados/Ronald/histograma/Casos/5
+==99381== Parent PID: 99380
+==99381== 
+==99381== 
+==99381== HEAP SUMMARY:
+==99381==     in use at exit: 0 bytes in 0 blocks
+==99381==   total heap usage: 8 allocs, 8 frees, 658,700 bytes allocated
+==99381== 
+==99381== All heap blocks were freed -- no leaks are possible
+==99381== 
+==99381== For lists of detected and suppressed errors, rerun with: -s
+==99381== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
