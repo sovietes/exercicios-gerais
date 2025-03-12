@@ -1,0 +1,10 @@
+estabelecimento.c: In function ‘DestroiEstabelecimento’:
+estabelecimento.c:27:54: warning: passing argument 2 of ‘VectorDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   27 |             VectorDestroy(estabelecimento->produtos, DestroiProduto);
+      |                                                      ^~~~~~~~~~~~~~
+      |                                                      |
+      |                                                      void (*)(tProduto *) {aka void (*)(struct Produto *)}
+In file included from estabelecimento.c:4:
+./vector.h:46:38: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tProduto *)’ {aka ‘void (*)(struct Produto *)’}
+   46 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
+      |                               ~~~~~~~^~~~~~~~~~~~~~~~~~
