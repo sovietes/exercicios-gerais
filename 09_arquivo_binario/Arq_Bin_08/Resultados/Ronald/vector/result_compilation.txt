@@ -1,0 +1,4 @@
+vector.c: In function ‘VectorRemove’:
+vector.c:81:9: warning: variable ‘idx’ set but not used [-Wunused-but-set-variable]
+   81 |     int idx;
+      |         ^~~

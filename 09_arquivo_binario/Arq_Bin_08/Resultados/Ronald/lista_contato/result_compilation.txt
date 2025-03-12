@@ -1,0 +1,13 @@
+lista_contato.c: In function ‘DestruirListaContato’:
+lista_contato.c:30:33: warning: passing argument 2 of ‘VectorDestroy’ from incompatible pointer type [-Wincompatible-pointer-types]
+   30 |         VectorDestroy(l->lista, DestruirContato);
+      |                                 ^~~~~~~~~~~~~~~
+      |                                 |
+      |                                 void (*)(tContato *) {aka void (*)(struct Contato *)}
+In file included from lista_contato.c:5:
+./vector.h:54:38: note: expected ‘void (*)(void *)’ but argument is of type ‘void (*)(tContato *)’ {aka ‘void (*)(struct Contato *)’}
+   54 | void VectorDestroy(Vector *v, void (*destroy)(DataType));
+      |                               ~~~~~~~^~~~~~~~~~~~~~~~~~
+lista_contato.c:28:9: warning: unused variable ‘i’ [-Wunused-variable]
+   28 |     int i;
+      |         ^
